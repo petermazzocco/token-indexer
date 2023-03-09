@@ -53,11 +53,11 @@ const App = () => {
               </h2>
               <h2 className=" text-xl font-bold mt-8 mb-1">Enter A Address</h2>
               <input
-                className="relative inline-flex w-full items-center text-black border-white justify-center p-0.5 mb-2 mr-2 hover:bg-white hover:text-teal-800 hover:border-2 hover:border-teal-800 overflow-hidden text-sm font-medium border-2 rounded-lg "
+                className="relative inline-flex h-10 pl-4 pr-4 w-full items-center text-black border-white justify-center p-0.5 mb-2 mr-2 hover:bg-white hover:text-teal-800 hover:border-2 hover:border-teal-800 overflow-hidden text-sm font-medium border-2 rounded-lg "
                 onChange={(e) => setUserAddress(e.target.value)}
               />
               <button
-                className="relative inline-flex h-11 w-full items-center border-white justify-center p-0.5 mb-2 mr-2 hover:bg-white hover:text-teal-800 hover:border-2 hover:border-teal-800 overflow-hidden text-sm font-medium border-2 rounded-lg "
+                className="relative inline-flex h-10 w-1/3 items-center border-white justify-center p-0.5 mb-2 mr-2 hover:bg-white hover:text-teal-800 hover:border-2 hover:border-teal-800 overflow-hidden text-sm font-medium border-2 rounded-lg "
                 onClick={getTokenBalance}
               >
                 Submit
